@@ -2,7 +2,7 @@ import openai
 
 # Set your OpenAI API key
 client = openai.OpenAI(
-    api_key="")
+    api_key="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")
 
 def chat_with_gpt(prompt, model="gpt-4", temperature=0.7):
     try:
